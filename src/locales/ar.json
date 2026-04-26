@@ -1,0 +1,382 @@
+{
+  "app": {
+    "name": "بوابة الخدمات الحكومية",
+    "tagline": "الخدمات الحكومية، مبسطة"
+  },
+  "navigation": {
+    "home": "الرئيسية",
+    "services": "الخدمات",
+    "dashboard": "لوحة التحكم",
+    "admin": "الإدارة",
+    "login": "تسجيل الدخول",
+    "logout": "تسجيل الخروج",
+    "register": "إنشاء حساب",
+    "aiAssistant": "المساعد الذكي"
+  },
+  "common": {
+    "serviceName": "الخدمة",
+    "loading": "جاري التحميل...",
+    "error": "حدث خطأ",
+    "success": "نجاح",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "view": "عرض",
+    "submit": "إرسال",
+    "back": "رجوع",
+    "next": "التالي",
+    "previous": "السابق",
+    "search": "بحث",
+    "noData": "لا توجد بيانات",
+    "actions": "إجراءات",
+    "create": "إضافة خدمة",
+    "confirmDelete": "هل أنت متأكد من حذف هذه الخدمة؟"
+  },
+  "status": {
+    "pending": "قيد الانتظار",
+    "submitted": "تم الإرسال",
+    "processing": "قيد المعالجة",
+    "completed": "مكتمل",
+    "rejected": "مرفوض",
+    "active": "نشط",
+    "inactive": "غير نشط"
+  },
+  "documents": {
+    "upload": "رفع مستند",
+    "type": "نوع المستند",
+    "size": "حجم الملف",
+    "verified": "موثق",
+    "notVerified": "غير موثق"
+  },
+  "payments": {
+    "amount": "المبلغ",
+    "fee": "الرسوم",
+    "paid": "مدفوع",
+    "unpaid": "غير مدفوع",
+    "process": "معالجة الدفع"
+  },
+  "time": {
+    "days": "أيام",
+    "day": "يوم",
+    "14days": "14 يوم",
+    "7days": "7 أيام",
+    "3days": "3 أيام",
+    "21days": "21 يوم",
+    "createdAt": "تاريخ الإنشاء",
+    "updatedAt": "تاريخ التحديث"
+  },
+  "permissions": {
+    "services.view": "عرض الخدمات",
+    "services.create": "إنشاء خدمات",
+    "services.edit": "تعديل الخدمات",
+    "services.delete": "حذف الخدمات",
+    "requests.view": "عرض الطلبات",
+    "requests.create": "إنشاء طلبات",
+    "requests.edit": "تعديل الطلبات",
+    "requests.delete": "حذف الطلبات",
+    "requests.approve": "الموافقة على الطلبات",
+    "documents.view": "عرض المستندات",
+    "documents.upload": "رفع المستندات",
+    "documents.delete": "حذف المستندات",
+    "payments.view": "عرض المدفوعات",
+    "payments.process": "معالجة المدفوعات",
+    "admin.access": "الوصول للإدارة",
+    "users.manage": "إدارة المستخدمين"
+  },
+  "services": {
+    "catalog": {
+      "title": "الخدمات الحكومية",
+      "description": "تصفح واطلب الخدمات الحكومية الرسمية",
+      "searchPlaceholder": "بحث عن خدمات...",
+      "noServices": "لا توجد خدمات متاحة"
+    },
+    "details": {
+      "fee": "الرسوم",
+      "department": "الإدارة",
+      "processingTime": "وقت المعالجة",
+      "requiredDocuments": "المستندات المطلوبة",
+      "description": "الوصف",
+      "requestNow": "طلب هذه الخدمة"
+    },
+    "types": {
+      "passport": "خدمات الجوازات",
+      "passportRenewal": "تجديد الجواز",
+      "nationalId": "بطاقة الهوية الوطنية",
+      "carInsurance": "تأمين المركبات",
+      "businessLicense": "رخصة تجارية",
+      "birthCertificate": "شهادة ميلاد"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "مرحباً بعودتك",
+      "subtitle": "سجل الدخول إلى حسابك",
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "submit": "تسجيل الدخول",
+      "forgotPassword": "نسيت كلمة المرور؟",
+      "noAccount": "ليس لديك حساب؟",
+      "register": "إنشاء حساب"
+    },
+    "register": {
+      "title": "إنشاء حساب",
+      "subtitle": "سجل حساباً جديداً",
+      "firstName": "الاسم الأول",
+      "lastName": "اسم العائلة",
+      "email": "البريد الإلكتروني",
+      "phone": "رقم الهاتف",
+      "password": "كلمة المرور",
+      "confirmPassword": "تأكيد كلمة المرور",
+      "submit": "إنشاء حساب",
+      "haveAccount": "لديك حساب بالفعل؟",
+      "login": "تسجيل الدخول"
+    },
+    "validation": {
+      "emailRequired": "البريد الإلكتروني مطلوب",
+      "invalidEmail": "عنوان بريد إلكتروني غير صالح",
+      "passwordRequired": "كلمة المرور مطلوبة",
+      "passwordMinLength": "يجب أن تكون كلمة المرور 8 أحرف على الأقل",
+      "passwordsMatch": "يجب أن تتطابق كلمات المرور",
+      "firstNameRequired": "الاسم الأول مطلوب",
+      "lastNameRequired": "اسم العائلة مطلوب"
+    },
+    "messages": {
+      "loginSuccess": "تم تسجيل الدخول بنجاح",
+      "loginFailed": "فشل تسجيل الدخول. يرجى التحقق من بياناتك.",
+      "registerSuccess": "تم إنشاء الحساب بنجاح",
+      "registerFailed": "فشل التسجيل. يرجى المحاولة مرة أخرى.",
+      "logoutSuccess": "تم تسجيل الخروج بنجاح"
+    }
+  },
+  "landing": {
+    "badge": "بوابة الخدمات الحكومية",
+    "hero": {
+      "title1": "الخدمات الحكومية،",
+      "title2": "مبسّطة",
+      "description": "اطلب الوثائق الرسمية، ادفع الرسوم، وتابع طلباتك — كل ذلك عبر بوابتنا المدعومة بالذكاء الاصطناعي.",
+      "startAssistant": "ابدأ مع المساعد الذكي",
+      "getStarted": "ابدأ الآن",
+      "signIn": "تسجيل الدخول"
+    },
+    "stats": {
+      "services": "الخدمات المتاحة",
+      "citizens": "المواطنون المخدومون",
+      "processing": "متوسط المعالجة",
+      "uptime": "وقت التشغيل"
+    },
+    "services": {
+      "label": "ما نقدمه",
+      "title": "الخدمات الشائعة",
+      "badges": {
+        "popular": "شائع",
+        "fastTrack": "مسار سريع",
+        "available": "متاح",
+        "new": "جديد"
+      }
+    },
+    "features": {
+      "label": "قدرات المنصة",
+      "title": "لماذا تستخدم بوابتنا؟",
+      "ai": {
+        "title": "مساعد مدعوم بالذكاء الاصطناعي",
+        "description": "احصل على توجيه خطوة بخطوة خلال طلبات الخدمة عبر روبوتنا الذكي."
+      },
+      "documents": {
+        "title": "إدارة المستندات",
+        "description": "ارفع وأدر جميع المستندات المطلوبة بأمان في مكان واحد."
+      },
+      "payments": {
+        "title": "مدفوعات آمنة",
+        "description": "ادفع رسوم الخدمة بأمان مع معالجة مدفوعات مشفرة."
+      },
+      "tracking": {
+        "title": "تتبع في الوقت الفعلي",
+        "description": "راقب حالة طلبك من التقديم حتى الإتمام."
+      },
+      "speed": {
+        "title": "معالجة سريعة",
+        "description": "احصل على خدماتك في أيام وليس أسابيع."
+      },
+      "security": {
+        "title": "أمان حكومي",
+        "description": "بياناتك محمية بأمان من مستوى المؤسسات."
+      }
+    },
+    "quickAccess": {
+      "label": "وصول سريع",
+      "title": "بوابتك",
+      "chatTitle": "المساعد الذكي",
+      "chatDesc": "تحدث مع الذكاء الاصطناعي للحصول على المساعدة",
+      "adminTitle": "لوحة الإدارة",
+      "adminDesc": "إدارة جميع طلبات الخدمة"
+    },
+    "cta": {
+      "title": "هل أنت مستعد للبدء؟",
+      "description": "أنشئ حساباً اليوم وجرّب مستقبل الخدمات الحكومية.",
+      "createAccount": "إنشاء حساب مجاني",
+      "chatAssistant": "تحدث مع المساعد الذكي"
+    }
+  },
+  "navbar": {
+    "appName": "خدمات حكومية",
+    "welcomeBack": "مرحباً بعودتك",
+    "logout": "تسجيل الخروج"
+  },
+  "register": {
+    "title": "إنشاء حسابك",
+    "subtitle": "هل لديك حساب بالفعل؟",
+    "signIn": "تسجيل الدخول",
+    "firstName": "الاسم الأول",
+    "lastName": "اسم العائلة",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "submit": "إنشاء حساب",
+    "submitting": "جاري إنشاء الحساب...",
+    "errors": {
+      "passwordMismatch": "كلمات المرور غير متطابقة",
+      "passwordTooShort": "يجب أن تكون كلمة المرور 6 أحرف على الأقل",
+      "failed": "فشل التسجيل. يرجى المحاولة مرة أخرى."
+    }
+  },
+"chat": {
+    "title": "مساعد الخدمات الذكي",
+    "online": "متصل",
+    "quickSelect": "اختر خدمة بسرعة",
+    "placeholder": "اكتب رسالتك...",
+    "greeting": "مرحباً! أنا مساعدك الذكي. أي خدمة تريد طلبها اليوم؟ يمكنك الاختيار من: تجديد الجواز، بطاقة الهوية الوطنية، تأمين السيارة، أو رخصة تجارية.",
+    "serviceDetails": "تفاصيل الخدمة",
+    "requiredDocuments": "المستندات المطلوبة",
+    "uploadDocuments": "رفع المستندات",
+    "proceedPayment": "المتابعة للدفع",
+    "talkHuman": "التحدث مع موظف",
+    "filesReceived": "لقد استلمت {{count}} ملف(ات). يمكنك رفع مزيد من المستندات أو إخباري عندما تكون مستعداً للمتابعة للدفع.",
+    "submitted": "تم تقديم طلبك لـ {{service}} بنجاح! رقم الطلب: {{id}}.\n\nتابع حالته في لوحة التحكم.",
+    "submitError": "حدث خطأ أثناء تقديم طلبك. يرجى المحاولة مرة أخرى أو الاتصال بالدعم.",
+    "fallback": "أنا هنا للمساعدة في طلب الخدمة. هل تريد مني شرح المتطلبات مجدداً، أم التحدث مع موظف؟",
+    "loginRequired": "لإكمال طلبك والدفع، يرجى تسجيل الدخول أو إنشاء حساب أولاً. هل تريد المتابعة كضيف، أم تسجيل الدخول الآن؟",
+    "guestInfo": "يمكنك تصفح الخدمات والتحدث معي، لكن يتعين عليك تسجيل الدخول لتقديم الطلبات.",
+    "applyFor": "أريد التقدم لـ",
+    "greatChoice": "ممتاز! لـ",
+    "youllNeed": "ستحتاج إلى:",
+    "fee": "الرسوم: ",
+    "estimatedTime": "الوقت المتوقع: ",
+    "uploadDocsGuidance": "يرجى رفع المستندات المطلوبة، وسأرشدك خلال العملية."
+  },
+  "documents": {
+    "upload": "رفع مستند",
+    "type": "نوع المستند",
+    "size": "حجم الملف",
+    "verified": "موثق",
+    "notVerified": "غير موثق",
+    "passportPhoto": "صورة جواز السفر",
+    "proofOfAddress": "إثبات العنوان",
+    "existingPassport": "الجواز الحالي",
+    "birthCertificate": "شهادة الميلاد",
+    "nationalIdPhoto": "صورة بطاقة الهوية",
+    "vehicleRegistration": "تسجيل المركبة",
+    "driverLicense": "رخصة القيادة",
+    "driversLicense": "رخصة القيادة",
+    "idProof": "إثبات الهوية",
+    "businessPlan": "خطة العمل",
+    "addressProof": "إثبات العنوان",
+    "previousInsurance": "التأمين السابق",
+    "passport_photo": "صورة جواز السفر",
+    "proof_of_address": "إثبات العنوان",
+    "existing_passport": "الجواز الحالي",
+    "birth_certificate": "شهادة الميلاد",
+    "national_id_photo": "صورة بطاقة الهوية",
+    "vehicle_registration": "تسجيل المركبة",
+    "driver_license": "رخصة القيادة",
+    "drivers_license": "رخصة القيادة",
+    "id_proof": "إثبات الهوية",
+    "business_plan": "خطة العمل",
+    "address_proof": "إثبات العنوان",
+    "previous_insurance": "التأمين السابق",
+    "currentPassport": "جواز السفر الحالي",
+    "current_passport": "جواز السفر الحالي",
+    "taxCertificate": "الشهادة الضريبية",
+    "tax_certificate": "الشهادة الضريبية",
+    "premisesLease": "عقد إيجار المقر",
+    "premises_lease": "عقد إيجار المقر",
+    "photoId": "بطاقة هوية بصورة",
+    "photo_id": "بطاقة هوية بصورة",
+    "proofOfRelationship": "إثبات صلة القرابة",
+    "proof_of_relationship": "إثبات صلة القرابة"
+  },
+  "dashboard": {
+    "welcomeBack": "مرحباً بعودتك",
+    "subtitle": "تتبع وأدر طلبات الخدمة الخاصة بك",
+    "stats": {
+      "total": "إجمالي الطلبات",
+      "pending": "قيد الانتظار",
+      "processing": "قيد المعالجة",
+      "completed": "مكتملة"
+    },
+    "table": {
+      "title": "طلبات الخدمة الخاصة بي",
+      "newRequest": "طلب جديد",
+      "loading": "جاري تحميل الطلبات...",
+      "empty": "لم تقدم أي طلبات خدمة بعد.",
+      "startFirst": "ابدأ طلبك الأول",
+      "columns": {
+        "id": "رقم الطلب",
+        "service": "الخدمة",
+        "fee": "الرسوم",
+        "status": "الحالة",
+        "submitted": "تاريخ التقديم",
+        "docs": "المستندات",
+        "actions": "الإجراءات"
+      }
+    },
+    "modal": {
+      "title": "تفاصيل الطلب",
+      "uploadedDocs": "المستندات المرفوعة",
+      "notes": "ملاحظات",
+      "close": "إغلاق",
+      "support": "التواصل مع الدعم"
+    }
+  },
+  "admin": {
+    "label": "الإدارة",
+    "title": "لوحة الإدارة",
+    "services": "إدارة الخدمات",
+    "subtitle": "إدارة ومعالجة طلبات الخدمة",
+    "refresh": "تحديث",
+    "stats": {
+      "total": "الإجمالي",
+      "pending": "قيد الانتظار",
+      "processing": "قيد المعالجة",
+      "completed": "مكتملة",
+      "rejected": "مرفوضة"
+    },
+    "table": {
+      "title": "طلبات الخدمة",
+      "searchPlaceholder": "بحث في الطلبات...",
+      "loading": "جاري تحميل الطلبات...",
+      "empty": "لم يتم العثور على طلبات",
+      "columns": {
+        "id": "الرقم",
+        "user": "المستخدم",
+        "service": "الخدمة",
+        "fee": "الرسوم",
+        "status": "الحالة",
+        "date": "التاريخ",
+        "actions": "الإجراءات"
+      }
+    },
+    "modal": {
+      "applicant": "مقدم الطلب",
+      "noAddress": "لا يوجد عنوان مسجل",
+      "serviceDetails": "تفاصيل الخدمة",
+      "documents": "المستندات",
+      "adminNotes": "ملاحظات المدير",
+      "updateStatus": "تحديث الحالة",
+      "startProcessing": "بدء المعالجة",
+      "reject": "رفض",
+      "markComplete": "تحديد كمكتمل",
+      "reactivate": "إعادة تنشيط"
+    }
+  }
+}

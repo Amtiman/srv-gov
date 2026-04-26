@@ -1,0 +1,363 @@
+{
+  "app": {
+    "name": "Portail GovServices",
+    "tagline": "Services gouvernementaux, simplifiés"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "services": "Services",
+    "dashboard": "Tableau de bord",
+    "admin": "Administration",
+    "login": "Connexion",
+    "logout": "Déconnexion",
+    "register": "S'inscrire",
+    "aiAssistant": "Assistant IA"
+  },
+  "common": {
+    "serviceName": "Nom du service",
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue",
+    "success": "Succès",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "view": "Voir",
+    "submit": "Soumettre",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "search": "Rechercher",
+    "noData": "Aucune donnée disponible",
+    "actions": "Actions"
+  },
+  "status": {
+    "pending": "En attente",
+    "submitted": "Soumis",
+    "processing": "En traitement",
+    "completed": "Terminé",
+    "rejected": "Rejeté",
+    "active": "Actif",
+    "inactive": "Inactif"
+  },
+  "documents": {
+    "upload": "Téléverser un document",
+    "type": "Type de document",
+    "size": "Taille du fichier",
+    "verified": "Vérifié",
+    "notVerified": "Non vérifié",
+    "passportPhoto": "Photo de passeport",
+    "proofOfAddress": "Justificatif de domicile",
+    "existingPassport": "Passeport actuel",
+    "birthCertificate": "Acte de naissance",
+    "nationalIdPhoto": "Photo de carte d'identité",
+    "vehicleRegistration": "Carte grise",
+    "driverLicense": "Permis de conduire",
+    "driversLicense": "Permis de conduire",
+    "idProof": "Pièce d'identité",
+    "businessPlan": "Plan d'affaires",
+    "addressProof": "Justificatif de domicile",
+    "previousInsurance": "Assurance précédente",
+    "passport_photo": "Photo de passeport",
+    "proof_of_address": "Justificatif de domicile",
+    "existing_passport": "Passeport actuel",
+    "birth_certificate": "Acte de naissance",
+    "national_id_photo": "Photo de carte d'identité",
+    "vehicle_registration": "Carte grise",
+    "driver_license": "Permis de conduire",
+    "drivers_license": "Permis de conduire",
+    "id_proof": "Pièce d'identité",
+    "business_plan": "Plan d'affaires",
+    "address_proof": "Justificatif de domicile",
+    "previous_insurance": "Assurance précédente",
+    "currentPassport": "Passeport actuel",
+    "current_passport": "Passeport actuel",
+    "taxCertificate": "Certificat fiscal",
+    "tax_certificate": "Certificat fiscal",
+    "premisesLease": "Bail des locaux",
+    "premises_lease": "Bail des locaux",
+    "photoId": "Pièce d'identité avec photo",
+    "photo_id": "Pièce d'identité avec photo",
+    "proofOfRelationship": "Justificatif de lien de parenté",
+    "proof_of_relationship": "Justificatif de lien de parenté"
+  },
+  "payments": {
+    "amount": "Montant",
+    "fee": "Frais",
+    "paid": "Payé",
+    "unpaid": "Non payé",
+    "process": "Traiter le paiement"
+  },
+  "time": {
+    "days": "jours",
+    "day": "jour",
+    "createdAt": "Créé le",
+    "updatedAt": "Mis à jour le"
+  },
+  "permissions": {
+    "services.view": "Voir les services",
+    "services.create": "Créer des services",
+    "services.edit": "Modifier les services",
+    "services.delete": "Supprimer des services",
+    "requests.view": "Voir les demandes",
+    "requests.create": "Créer des demandes",
+    "requests.edit": "Modifier les demandes",
+    "requests.delete": "Supprimer des demandes",
+    "requests.approve": "Approuver les demandes",
+    "documents.view": "Voir les documents",
+    "documents.upload": "Téléverser des documents",
+    "documents.delete": "Supprimer des documents",
+    "payments.view": "Voir les paiements",
+    "payments.process": "Traiter les paiements",
+    "admin.access": "Accès administrateur",
+    "users.manage": "Gérer les utilisateurs"
+  },
+  "services": {
+    "catalog": {
+      "title": "Services gouvernementaux",
+      "description": "Parcourez et demandez des services gouvernementaux officiels",
+      "searchPlaceholder": "Rechercher des services...",
+      "noServices": "Aucun service disponible"
+    },
+    "details": {
+      "fee": "Frais",
+      "department": "Département",
+      "processingTime": "Délai de traitement",
+      "requiredDocuments": "Documents requis",
+      "description": "Description",
+      "requestNow": "Demander ce service"
+    },
+    "types": {
+      "passport": "Services de passeport",
+      "passportRenewal": "Renouvellement de passeport",
+      "nationalId": "Carte d'identité nationale",
+      "carInsurance": "Assurance automobile",
+      "businessLicense": "Licence commerciale",
+      "birthCertificate": "Certificat de naissance"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Bon retour",
+      "subtitle": "Connectez-vous à votre compte",
+      "email": "Adresse e-mail",
+      "password": "Mot de passe",
+      "submit": "Se connecter",
+      "forgotPassword": "Mot de passe oublié ?",
+      "noAccount": "Vous n'avez pas de compte ?",
+      "register": "S'inscrire"
+    },
+    "register": {
+      "title": "Créer un compte",
+      "subtitle": "Inscrivez-vous pour un nouveau compte",
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "email": "Adresse e-mail",
+      "phone": "Numéro de téléphone",
+      "password": "Mot de passe",
+      "confirmPassword": "Confirmer le mot de passe",
+      "submit": "Créer un compte",
+      "haveAccount": "Vous avez déjà un compte ?",
+      "login": "Se connecter"
+    },
+    "validation": {
+      "emailRequired": "L'e-mail est requis",
+      "invalidEmail": "Adresse e-mail invalide",
+      "passwordRequired": "Le mot de passe est requis",
+      "passwordMinLength": "Le mot de passe doit contenir au moins 8 caractères",
+      "passwordsMatch": "Les mots de passe doivent correspondre",
+      "firstNameRequired": "Le prénom est requis",
+      "lastNameRequired": "Le nom est requis"
+    },
+    "messages": {
+      "loginSuccess": "Connecté avec succès",
+      "loginFailed": "Échec de la connexion. Veuillez vérifier vos identifiants.",
+      "registerSuccess": "Compte créé avec succès",
+      "registerFailed": "Échec de l'inscription. Veuillez réessayer.",
+      "logoutSuccess": "Déconnecté avec succès"
+    }
+  },
+  "landing": {
+    "badge": "Portail des services gouvernementaux",
+    "hero": {
+      "title1": "Services gouvernementaux,",
+      "title2": "Simplifiés",
+      "description": "Demandez des documents officiels, payez les frais et suivez vos dossiers — tout via notre portail alimenté par l'IA.",
+      "startAssistant": "Commencer avec l'assistant IA",
+      "getStarted": "Commencer",
+      "signIn": "Se connecter"
+    },
+    "stats": {
+      "services": "Services disponibles",
+      "citizens": "Citoyens servis",
+      "processing": "Délai moyen",
+      "uptime": "Disponibilité"
+    },
+    "services": {
+      "label": "Ce que nous offrons",
+      "title": "Services populaires",
+      "badges": {
+        "popular": "Populaire",
+        "fastTrack": "Accéléré",
+        "available": "Disponible",
+        "new": "Nouveau"
+      }
+    },
+    "features": {
+      "label": "Capacités de la plateforme",
+      "title": "Pourquoi utiliser notre portail ?",
+      "ai": {
+        "title": "Assistant alimenté par l'IA",
+        "description": "Bénéficiez d'un guide étape par étape pour vos demandes de service grâce à notre chatbot intelligent."
+      },
+      "documents": {
+        "title": "Gestion des documents",
+        "description": "Téléversez et gérez tous les documents requis en toute sécurité en un seul endroit."
+      },
+      "payments": {
+        "title": "Paiements sécurisés",
+        "description": "Payez les frais de service en toute sécurité grâce au traitement des paiements chiffré."
+      },
+      "tracking": {
+        "title": "Suivi en temps réel",
+        "description": "Surveillez l'état de votre demande de la soumission à l'achèvement."
+      },
+      "speed": {
+        "title": "Traitement rapide",
+        "description": "Obtenez vos services traités en jours, pas en semaines."
+      },
+      "security": {
+        "title": "Sécurité gouvernementale",
+        "description": "Vos données sont protégées par une sécurité de niveau entreprise."
+      }
+    },
+    "quickAccess": {
+      "label": "Accès rapide",
+      "title": "Votre portail",
+      "chatTitle": "Assistant IA",
+      "chatDesc": "Discutez avec notre IA pour obtener de l'aide",
+      "adminTitle": "Panneau d'admin",
+      "adminDesc": "Gérer toutes les demandes de service"
+    },
+    "cta": {
+      "title": "Prêt à commencer ?",
+      "description": "Créez un compte aujourd'hui et découvrez l'avenir des services gouvernementaux.",
+      "createAccount": "Créer un compte gratuit",
+      "chatAssistant": "Discuter avec l'assistant IA"
+    }
+  },
+  "navbar": {
+    "appName": "GovServices",
+    "welcomeBack": "Bon retour",
+    "logout": "Déconnexion"
+  },
+  "register": {
+    "title": "Créer votre compte",
+    "subtitle": "Vous avez déjà un compte ?",
+    "signIn": "Se connecter",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "email": "Adresse e-mail",
+    "password": "Mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "submit": "Créer un compte",
+    "submitting": "Création du compte...",
+    "errors": {
+      "passwordMismatch": "Les mots de passe ne correspondent pas",
+      "passwordTooShort": "Le mot de passe doit contenir au moins 6 caractères",
+      "failed": "Échec de l'inscription. Veuillez réessayer."
+    }
+  },
+  "chat": {
+    "title": "Assistant de services IA",
+    "online": "En ligne",
+    "quickSelect": "Sélection rapide d'un service",
+    "placeholder": "Tapez votre message...",
+    "greeting": "Bonjour ! Je suis votre assistant IA. Quel service souhaitez-vous demander aujourd'hui ? Vous pouvez choisir parmi : Renouvellement de passeport, Carte d'identité nationale, Assurance automobile ou Licence commerciale.",
+    "serviceDetails": "Détails du service",
+    "requiredDocuments": "Documents requis",
+    "uploadDocuments": "Téléverser des documents",
+    "proceedPayment": "Procéder au paiement",
+    "talkHuman": "Parler à un agent",
+    "filesReceived": "J'ai reçu {{count}} fichier(s). Vous pouvez téléverser d'autres documents ou me dire quand vous êtes prêt à procéder au paiement.",
+    "submitted": "Votre demande pour {{service}} a été soumise ! ID : {{id}}.\n\nSuivez son statut dans votre tableau de bord.",
+    "submitError": "Un problème est survenu lors de la soumission. Veuillez réessayer ou contacter le support.",
+    "fallback": "Je suis là pour vous aider avec votre demande. Voulez-vous que j'explique à nouveau les exigences, ou souhaitez-vous parler à un agent ?",
+    "loginRequired": "Pour compléter votre demande et traiter le paiement, veuillez vous connecter ou créer un compte. Voulez-vous continuer en tant qu'invité, ou vous connecter maintenant ?",
+    "guestInfo": "Vous pouvez parcourir les services et discuter avec moi, mais vous devrez vous connecter pour soumettre des demandes."
+  },
+  "dashboard": {
+    "welcomeBack": "Bon retour",
+    "subtitle": "Suivez et gérez vos demandes de service",
+    "stats": {
+      "total": "Total des demandes",
+      "pending": "En attente",
+      "processing": "En traitement",
+      "completed": "Terminées"
+    },
+    "table": {
+      "title": "Mes demandes de service",
+      "newRequest": "Nouvelle demande",
+      "loading": "Chargement des demandes...",
+      "empty": "Vous n'avez pas encore effectué de demandes de service.",
+      "startFirst": "Commencer votre première demande",
+      "columns": {
+        "id": "ID de demande",
+        "service": "Service",
+        "fee": "Frais",
+        "status": "Statut",
+        "submitted": "Soumis le",
+        "docs": "Docs",
+        "actions": "Actions"
+      }
+    },
+    "modal": {
+      "title": "Détails de la demande",
+      "uploadedDocs": "Documents téléversés",
+      "notes": "Notes",
+      "close": "Fermer",
+      "support": "Contacter le support"
+    }
+  },
+  "admin": {
+    "services": "Gérer les services",
+    "label": "Administration",
+    "title": "Panneau d'administration",
+    "subtitle": "Gérer et traiter les demandes de service",
+    "refresh": "Actualiser",
+    "stats": {
+      "total": "Total",
+      "pending": "En attente",
+      "processing": "En traitement",
+      "completed": "Terminées",
+      "rejected": "Rejetées"
+    },
+    "table": {
+      "title": "Demandes de service",
+      "searchPlaceholder": "Rechercher des demandes...",
+      "loading": "Chargement des demandes...",
+      "empty": "Aucune demande trouvée",
+      "columns": {
+        "id": "ID",
+        "user": "Utilisateur",
+        "service": "Service",
+        "fee": "Frais",
+        "status": "Statut",
+        "date": "Date",
+        "actions": "Actions"
+      }
+    },
+    "modal": {
+      "applicant": "Demandeur",
+      "noAddress": "Aucune adresse enregistrée",
+      "serviceDetails": "Détails du service",
+      "documents": "Documents",
+      "adminNotes": "Notes administrateur",
+      "updateStatus": "Mettre à jour le statut",
+      "startProcessing": "Commencer le traitement",
+      "reject": "Rejeter",
+      "markComplete": "Marquer comme terminé",
+      "reactivate": "Réactiver"
+    }
+  }
+}
