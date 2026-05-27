@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { useAuth } from '../context/AuthContext';
 import axios from 'axios';
 import { FileText, Clock, CheckCircle, XCircle, Download, Eye, MessageSquare, Plus, Settings } from 'lucide-react';
+import CallSupportModal from '../components/CallSupportModal';
 import theme from '../theme';
 import { formatFee } from '../lib/currency';
 
@@ -50,6 +51,7 @@ const Dashboard = () => {
   const [requests, setRequests] = useState([]);
   const [loading, setLoading] = useState(true);
   const [selectedRequest, setSelectedRequest] = useState(null);
+  const [showCallModal, setShowCallModal] = useState(false);
 
   const statusLabels = {
     pending:    t('status.pending'),
@@ -193,6 +195,8 @@ const Dashboard = () => {
         </div>
       </div>
 
+      {showCallModal && <CallSupportModal onClose={() => setShowCallModal(false)} />}
+
       {/* Detail Modal */}
       {selectedRequest && (
         <div style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.7)', backdropFilter: 'blur(4px)', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 24, zIndex: 200 }}
@@ -255,7 +259,7 @@ const Dashboard = () => {
               <button onClick={() => setSelectedRequest(null)} style={{ padding: '9px 18px', borderRadius: 10, background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.1)', color: theme.colors.neutral[300], cursor: 'pointer', fontSize: '0.875rem' }}>
                 {t('dashboard.modal.close')}
               </button>
-              <button style={{ display: 'flex', alignItems: 'center', gap: 6, padding: '9px 18px', borderRadius: 10, background: `linear-gradient(135deg, ${theme.colors.accent.gold}, ${theme.colors.accent.goldDark})`, border: 'none', color: '#0f172a', cursor: 'pointer', fontWeight: 700, fontSize: '0.875rem' }}>
+              <button onClick={() => setShowCallModal(true)} style={{ display: 'flex', alignItems: 'center', gap: 6, padding: '9px 18px', borderRadius: 10, background: `linear-gradient(135deg, ${theme.colors.accent.gold}, ${theme.colors.accent.goldDark})`, border: 'none', color: '#0f172a', cursor: 'pointer', fontWeight: 700, fontSize: '0.875rem' }}>
                 <MessageSquare style={{ width: 14, height: 14 }} />
                 {t('dashboard.modal.support')}
               </button>

@@ -5,6 +5,7 @@ import { useDir } from '../hooks/useDir';
 import { formatFee } from '../lib/currency';
 import axios from 'axios';
 import { Bot, Send, Paperclip, X, FileText, Upload, CheckCircle, AlertCircle, Phone, Clock } from 'lucide-react';
+import CallSupportModal from '../components/CallSupportModal';
 import theme from '../theme';
 
 const services = [
@@ -40,6 +41,7 @@ const ChatPage = () => {
   const [, setServiceRequest] = useState(null);
   const [, setPaymentStatus] = useState(null);
   const [guestPromptedLogin, setGuestPromptedLogin] = useState(false);
+  const [showCallModal, setShowCallModal] = useState(false);
   const messagesEndRef = useRef(null);
   const fileInputRef = useRef(null);
 
@@ -360,7 +362,7 @@ const ChatPage = () => {
             </button>
           )}
 
-          <button style={{
+          <button onClick={() => setShowCallModal(true)} style={{
             display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6,
             padding: '8px', borderRadius: 10, background: 'none', border: 'none',
             color: theme.colors.neutral[500], fontSize: '0.8rem', cursor: 'pointer', transition: 'color 0.2s',
@@ -371,6 +373,7 @@ const ChatPage = () => {
             <Phone style={{ width: 14, height: 14 }} />
             {t('chat.talkHuman')}
           </button>
+          {showCallModal && <CallSupportModal onClose={() => setShowCallModal(false)} />}
         </div>
       )}
     </div>
