@@ -62,7 +62,7 @@ const Dashboard = () => {
 
   const fetchRequests = async () => {
     try {
-      const res = await axios.get(`http://localhost:5000/api/requests/user/${user.id}`);
+      const res = await axios.get('http://localhost:5000/api/requests');
       setRequests(res.data);
     } catch (e) {
       console.error(e);
